@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0813DFA7-CAB8-CB2E-6711-3EFA0AB5D186" name="PAIS">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:30:06 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>PAIS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAIS_ID" id="3DB48D4F-FD26-CA51-06EF-CFC366D14B38">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:33:01 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_ID" id="CF2ABF90-C234-01C1-ED53-E7D8C8C46808">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:47:39 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CD9B5D4-B944-4E2A-D96A-B0BFEA71A655" referredColumn="9567490E-6AFD-32B6-9EBA-4AB8F77BFC7D"/>
+</associations>
+</Column>
+<Column name="PAIS_NOMBRE" id="08A97200-6B3B-AC42-D700-6A4FECA83463">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:33:01 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_CODIGO" id="B1CBCDF4-70A3-7A34-F5A4-4A6468E37C41">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:33:01 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ESTADO" id="91131542-C671-0FCB-ABB4-DCC39537B224">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:47:39 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_REGISTRADOPOR" id="F7D885D5-BBE0-F26F-5751-5FEF70C857E3">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:33:01 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_FECHACAMBIO" id="36D68565-E813-E144-3D20-6059437906C2">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:47:39 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1C0DA97-98D2-23B5-614D-1550E7F8DE78" name="PAIS_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:47:48 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DB48D4F-FD26-CA51-06EF-CFC366D14B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DD71A7A-EA69-EA53-B07F-6B7923EB834F" name="PAIS_ZONAHORARIA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:48:06 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF2ABF90-C234-01C1-ED53-E7D8C8C46808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

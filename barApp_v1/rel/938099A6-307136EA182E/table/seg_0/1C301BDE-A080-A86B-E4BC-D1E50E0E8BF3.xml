@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C301BDE-A080-A86B-E4BC-D1E50E0E8BF3" name="CIUDAD">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:33:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>CIUD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CIUD_ID" id="313B3790-534F-A97F-EF6E-351619A15AF5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGI_ID" id="7D37A93F-D36A-8332-68D1-2E6BB55560BD">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:52:53 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09022190-FDFA-104F-F8A9-C2FDF262CB2D" referredColumn="22404845-BADC-3442-C77F-CF45044118B2"/>
+</associations>
+</Column>
+<Column name="ZOHO_ID" id="51B2AE4B-E0BA-2FF1-3BEC-8B9B6A43A252">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECD3F95B-71EF-1239-2B92-81CD1793A2E7" referredColumn="9567490E-6AFD-32B6-9EBA-4AB8F77BFC7D"/>
+</associations>
+</Column>
+<Column name="CIUD_NOMBRE" id="45651D29-DD89-A023-1C2E-5FE787D80863">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_CODIGODANE" id="43BB4090-09B4-0857-5E4C-A528BFFE7C77">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_CODIGOPOSTAL" id="EF348547-C6D2-8C74-7747-8849053272D6">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_ESTADO" id="FE50BE5A-18E1-B549-D48E-F2C4EEDA6E3B">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_RESGISTRADOPOR" id="ED485A67-D531-C16F-D4BD-067165AC1ACC">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_FECHACAMBIO" id="1AF09180-4507-6F10-693F-CB9D31B15CB1">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:39:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA34DDB6-1598-2167-4427-0C72654078B5" name="CIUDAD_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:40:09 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313B3790-534F-A97F-EF6E-351619A15AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A078F5F6-B40E-04C3-1913-09D48A3459EB" name="CIUDAD_ZONAHORARIA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:47:16 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B2AE4B-E0BA-2FF1-3BEC-8B9B6A43A252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15F6752E-8C32-4E4D-E82A-CCD4CC439E42" name="CIUDAD_REGION_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:53:20 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D37A93F-D36A-8332-68D1-2E6BB55560BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

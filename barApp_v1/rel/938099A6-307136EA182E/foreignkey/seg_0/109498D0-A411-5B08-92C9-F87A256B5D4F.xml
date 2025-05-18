@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="109498D0-A411-5B08-92C9-F87A256B5D4F" containerWithKeyObject="6FE6ECEF-2C61-C484-751F-B33955F5C14F" localFKIndex="F0D9A19F-83B3-10D6-C4E2-0079006A6C7C" name="SUCURSAL_MONEDA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>MONEDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99111CAA-DCB4-6856-4D94-A7B8859BE287</referredTableID>
+<keyObject>1D9A5468-F675-A39F-5D40-B3F0F7EA9303</keyObject>
+<referredKeyID>1D9A5468-F675-A39F-5D40-B3F0F7EA9303</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MONE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

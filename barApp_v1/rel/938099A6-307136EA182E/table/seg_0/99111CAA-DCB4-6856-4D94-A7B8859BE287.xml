@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99111CAA-DCB4-6856-4D94-A7B8859BE287" name="MONEDA">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:20:35 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<abbreviation>MONE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MONE_ID" id="DBAAF7B9-35FD-A6D8-E56C-A76D6908CE00">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_CODIGOISO" id="87E3F94C-5542-43AA-EB67-7AF6470E0A50">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_NOMBRE" id="30EF2BAF-14F5-AFEF-9038-FF375D87CAD4">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_SIMBOLO" id="82B775A9-9FC8-7327-8AC3-AF43080871DE">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_DECIMALES" id="261F07BA-D041-49ED-D12E-F317083C5BF5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_ESTADO" id="3ECA812D-66E5-8C23-8150-4BCF230201F5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_REGISTRADOPOR" id="04225843-80B9-EC6E-C313-335954074D06">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONE_FECHACAMBIO" id="6FCB0963-CABA-8616-0AF1-812BB52CAEBA">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D9A5468-F675-A39F-5D40-B3F0F7EA9303" name="MONEDA_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:23:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBAAF7B9-35FD-A6D8-E56C-A76D6908CE00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

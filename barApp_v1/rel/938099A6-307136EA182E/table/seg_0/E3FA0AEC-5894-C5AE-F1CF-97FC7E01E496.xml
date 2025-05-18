@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3FA0AEC-5894-C5AE-F1CF-97FC7E01E496" name="TIPO_IDENTIFICACION">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:53:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>TIID</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIID_ID" id="CDA2D9E4-6C22-BD01-1177-BD520B900B79">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:55:38 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIID_NOMBRE" id="06301577-AE4A-1890-42D8-6AF627933DF1">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:55:38 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIID_DESCRIPCION" id="BEDA9F93-2E56-85FF-EACA-1366AF6791C8">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:55:38 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIID_ESTADO" id="7BB21503-C618-7534-A906-66516AD21F0E">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:56:28 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIID_REGISTRADOPOR" id="A923EA6A-4292-0145-5F20-59489A0F63F5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:55:38 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIID_FECHACAMBIO" id="C8C8F09D-0697-70DD-0993-3B749E9E2125">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:55:38 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C956AFB-48F9-DEF3-1C88-AEA4E889ED13" name="TIPOIDENTIFICACION_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:55:45 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDA2D9E4-6C22-BD01-1177-BD520B900B79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

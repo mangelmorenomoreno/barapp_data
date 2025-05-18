@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2B6D2DD-7788-D004-CF30-DA621FE6FB4A" name="ZONAHORARIA">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:41:56 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>ZOHO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZOHO_ID" id="9567490E-6AFD-32B6-9EBA-4AB8F77BFC7D">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_NOMBRE" id="19955FD2-C7E3-B592-E67E-69242628C3F4">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_DESCRIPCION" id="F616C6D8-D936-347A-C96D-66E709F93A24">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_ABREVIATURA" id="3C5E2D82-B115-BE33-75C4-7F5BE8FA2D2A">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_OFFSETOUT" id="C3231D64-8531-B471-FFA3-F3D214DBBE8A">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_ESTADO" id="5A9BED31-F26E-63ED-A574-D328DE5087B3">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_REGISTRADOPOR" id="5D1CE0E8-448B-C2AE-AC33-238D17FD2477">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOHO_FECHACAMBIO" id="4B92E5B1-AF52-7A90-9640-DBA77D7DA2F6">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:03 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E86D04D-B96E-8FDF-32A0-3B03CBA04B6E" name="ZONAHORARIA_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:46:09 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9567490E-6AFD-32B6-9EBA-4AB8F77BFC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

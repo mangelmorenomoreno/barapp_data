@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FE6ECEF-2C61-C484-751F-B33955F5C14F" name="SUCURSAL">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:31:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<abbreviation>SUCU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUCU_ID" id="8DC85F48-E7EA-CD4F-96F0-DA1001BD1166">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPR_ID" id="4A62D74D-8555-6B04-FB7F-13682128FF55">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC86F08B-362E-F1CE-B203-8050BD4E9EBC" referredColumn="EFF3C610-12DC-16CC-26ED-B275BEC5ED57"/>
+</associations>
+</Column>
+<Column name="CIUD_ID" id="E4C2568C-156E-6AC7-F23A-B54F9C439CD9">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78964FE7-5FF4-552E-651E-EFD37621DC5A" referredColumn="313B3790-534F-A97F-EF6E-351619A15AF5"/>
+</associations>
+</Column>
+<Column name="ZOHO_ID" id="55077364-C5FF-1A0C-ECCE-1076AB6BBD36">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E62837AB-4001-CCC2-8AC4-1C2EB0A14002" referredColumn="9567490E-6AFD-32B6-9EBA-4AB8F77BFC7D"/>
+</associations>
+</Column>
+<Column name="MONE_ID" id="DEF39B33-331E-3FE0-B2B5-DD142BD23A77">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="109498D0-A411-5B08-92C9-F87A256B5D4F" referredColumn="DBAAF7B9-35FD-A6D8-E56C-A76D6908CE00"/>
+</associations>
+</Column>
+<Column name="PAIS_IDTELEFONO" id="C7C2C2FF-8DD8-370A-2D5C-871547390915">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A86364E-DBE3-0D47-F760-5707C3A6E23E" referredColumn="3DB48D4F-FD26-CA51-06EF-CFC366D14B38"/>
+</associations>
+</Column>
+<Column name="SUCU_NOMBRE" id="D86FF0E4-F906-0DDE-87E2-7EFF6C653714">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCU_CODIGOINTERNO" id="CFA4F92B-55E8-CF75-17DB-79332A283C4E">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCU_DIRECCION" id="2CCB6482-0253-68A1-FC95-6A3D097DCEAB">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCU_TELEFONO" id="2E383B74-87FB-6840-B46D-CD4AE48D7CD8">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCU_ESTADO" id="490EDBCD-31BC-D846-5B71-C294385B3CE1">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCU_REGISTRADOPOR" id="4E06AA71-FECE-5F24-7AE5-3E02CAB8F3A6">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCU_FECHACAMBIO" id="44719786-0958-73D0-8882-4423DD01C039">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:36:25 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64FDD8CE-33A0-67DE-F084-FE051943C02D" name="SUCURSAL_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DC85F48-E7EA-CD4F-96F0-DA1001BD1166"/>
+<colUsage columnID="4A62D74D-8555-6B04-FB7F-13682128FF55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A64F435-5275-2959-1D7B-D812EE60F0E1" name="SUCURSAL_CIUDAD_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C2568C-156E-6AC7-F23A-B54F9C439CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1882030E-CE91-AF96-8069-EF84FF16902B" name="SUCURSAL_EMPRESA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A62D74D-8555-6B04-FB7F-13682128FF55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0D9A19F-83B3-10D6-C4E2-0079006A6C7C" name="SUCURSAL_MONEDA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEF39B33-331E-3FE0-B2B5-DD142BD23A77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B8D94FE-967E-0056-3DFF-1C64D904AC7B" name="SUCURSAL_PAIS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C2C2FF-8DD8-370A-2D5C-871547390915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC03B227-EAC2-B5E8-8EAF-2616FB843DBE" name="SUCURSAL_ZONAHORARIA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:38:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55077364-C5FF-1A0C-ECCE-1076AB6BBD36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

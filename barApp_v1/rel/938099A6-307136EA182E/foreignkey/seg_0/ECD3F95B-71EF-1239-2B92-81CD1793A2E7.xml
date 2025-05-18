@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECD3F95B-71EF-1239-2B92-81CD1793A2E7" containerWithKeyObject="1C301BDE-A080-A86B-E4BC-D1E50E0E8BF3" localFKIndex="A078F5F6-B40E-04C3-1913-09D48A3459EB" name="CIUDAD_ZONAHORARIA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:47:16 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>ZONAHORARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2B6D2DD-7788-D004-CF30-DA621FE6FB4A</referredTableID>
+<keyObject>7E86D04D-B96E-8FDF-32A0-3B03CBA04B6E</keyObject>
+<referredKeyID>7E86D04D-B96E-8FDF-32A0-3B03CBA04B6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ZOHO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

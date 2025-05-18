@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58550A67-2BD7-0853-41DD-D525505213CD" name="REGION">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:47:52 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>REGI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGI_ID" id="22404845-BADC-3442-C77F-CF45044118B2">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="20DD9433-07C3-29B9-F098-A42A66A4B0FD">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:44:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F8F94B4-C5C2-264C-8FBE-25136684E2AD" referredColumn="3DB48D4F-FD26-CA51-06EF-CFC366D14B38"/>
+</associations>
+</Column>
+<Column name="ZOHO_ID" id="A8198C90-1098-221F-5FE2-0F82FCF37C12">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D5D6B8E-E40F-17BC-9DC1-BC7A9B6B7868" referredColumn="9567490E-6AFD-32B6-9EBA-4AB8F77BFC7D"/>
+</associations>
+</Column>
+<Column name="REGI_NOMBRE" id="16922914-D1C5-5CC4-8787-4CE4FBA5A310">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGI_CODIGO" id="95E14696-BD3B-693E-405D-BAB4D52DE3BF">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGI_ESTADO" id="6DFF7AE7-BBD5-A84F-8339-6EF429F917D8">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGI_REGISTRADOPOR" id="9B1F9A0D-502A-5213-241E-75F17E38C8D6">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGI_FECHACAMBIO" id="5A684FCA-740E-5A60-2E0A-25BE8E487CF1">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="597B7206-329E-0C33-1939-B01742213D5E" name="REGION_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:51:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22404845-BADC-3442-C77F-CF45044118B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FDE6DFE-1A1E-3A6A-4B73-7FE34E770116" name="REGION_ZONAHORARIA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 03:54:10 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8198C90-1098-221F-5FE2-0F82FCF37C12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F630902D-5B84-8FA4-6F6A-341F16139A8A" name="REGION_PAIS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 13:49:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20DD9433-07C3-29B9-F098-A42A66A4B0FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

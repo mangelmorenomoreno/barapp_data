@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A86364E-DBE3-0D47-F760-5707C3A6E23E" containerWithKeyObject="6FE6ECEF-2C61-C484-751F-B33955F5C14F" localFKIndex="5B8D94FE-967E-0056-3DFF-1C64D904AC7B" name="SUCURSAL_PAIS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 14:37:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>PAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0813DFA7-CAB8-CB2E-6711-3EFA0AB5D186</referredTableID>
+<keyObject>A1C0DA97-98D2-23B5-614D-1550E7F8DE78</keyObject>
+<referredKeyID>A1C0DA97-98D2-23B5-614D-1550E7F8DE78</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PAIS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
