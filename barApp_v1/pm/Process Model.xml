@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="ABE2D100-ED31-CFC8-3CEA-C578E4289323">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 01:27:33 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

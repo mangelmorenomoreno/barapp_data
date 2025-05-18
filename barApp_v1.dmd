@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="barApp_v1" id="690E3480-EBEC-6B21-F57A-92EA48D2BC7F" version="3.5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 01:27:33 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>690E3480-EBEC-6B21-F57A-92EA48D2BC7F</designId>
+</OSDM_Design>

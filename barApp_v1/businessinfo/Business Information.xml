@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="42BF09D8-BBBF-2F29-778D-19E8105E9E36">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 01:27:33 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

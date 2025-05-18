@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E34FE93D-4E59-4745-C2EC-DB484200011E" mainViewID="35874CE0-6F4F-E946-1058-B593A9CFC58A">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 01:27:33 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
