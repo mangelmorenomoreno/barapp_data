@@ -49,6 +49,17 @@
 <colAssociation fkAssociation="599E9917-B690-7B87-5FED-DAEACC3E0B59" referredColumn="2854D451-C16F-8218-575D-05E9E2544F0F"/>
 </associations>
 </Column>
+<Column name="PREC_ESTADO" id="5578454A-C500-9D34-90FB-63775A9E99E8">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 01:18:24 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="PREC_VALORVENTA" id="167CE767-CC20-1B5F-A083-3AE2390BDBB7">
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-18 03:26:44 UTC</createdTime>
@@ -69,6 +80,27 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREC_FECHAINICIA" id="7867A7F5-EA00-6F26-DE96-08941408F497">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 01:20:45 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREC_FECHAFINALIZA" id="B93B8F45-8B96-6F12-1793-C0A6937ED7CF">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 01:20:45 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PREC_REGISTRADOPOR" id="B8123F75-1825-C497-1E7B-0F8ACB6E2A5C">
