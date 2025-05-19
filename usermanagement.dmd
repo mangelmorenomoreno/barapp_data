@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="usermanagement" id="544A21E4-2E44-5512-006E-3F76871C264E" version="3.5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 02:46:40 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>544A21E4-2E44-5512-006E-3F76871C264E</designId>
+</OSDM_Design>
