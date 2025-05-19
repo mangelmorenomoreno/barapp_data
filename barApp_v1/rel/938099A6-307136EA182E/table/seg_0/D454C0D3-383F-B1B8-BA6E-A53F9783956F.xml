@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4B51EAE-70C7-4E34-EABF-F024CFE94470" name="PRECIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D454C0D3-383F-B1B8-BA6E-A53F9783956F" name="PAGOCUENTAVENTA">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:23:16 UTC</createdTime>
+<createdTime>2025-05-19 00:45:36 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<ordsAlias>table_5</ordsAlias>
-<abbreviation>PREC</abbreviation>
+<ordsAlias>table_36</ordsAlias>
+<abbreviation>PACV</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PREC_ID" id="C5E9A136-2F75-7E50-E0DA-183D8D024B92">
+<Column name="PACV_ID" id="A795FEEF-F68D-ACF6-C2FA-051231E22FF0">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,30,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROD_ID" id="DB93CCD2-22DC-828F-BBFF-A57C7BE6D331">
+<Column name="CUVE_ID" id="97D430A0-AA7D-247B-A351-DFC0B7AFC280">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:28:09 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,49 +31,49 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="599E9917-B690-7B87-5FED-DAEACC3E0B59" referredColumn="07767C1A-8DD3-1D0F-67AC-0683276E516A"/>
+<colAssociation fkAssociation="8A31E1EC-17E3-A4B0-2B27-89F9EFF2D684" referredColumn="DF0F8F36-C321-0EB1-6EA3-6BBF0C382CF8"/>
 </associations>
 </Column>
-<Column name="SUCU_ID" id="E58318D3-C510-FB77-0345-C03BB6DE6624">
+<Column name="MEPA_ID" id="F3F77284-8ACA-AD8D-E573-6A47C40AAFA5">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 18:14:36 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>30</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="599E9917-B690-7B87-5FED-DAEACC3E0B59" referredColumn="2854D451-C16F-8218-575D-05E9E2544F0F"/>
+<colAssociation fkAssociation="24AE7B0B-0E0B-8965-CB11-D55843CC6370" referredColumn="099041A8-99A3-7AD7-C129-117EA1B299A9"/>
 </associations>
 </Column>
-<Column name="PREC_VALORVENTA" id="167CE767-CC20-1B5F-A083-3AE2390BDBB7">
+<Column name="PACV_MONTO" id="8D42D236-580E-C857-D3D2-F14209E4DAF7">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PREC_VALORCOMPRA" id="8DF82FD4-458C-C4C6-5672-DFCEFBFF7E70">
+<Column name="PACV_OBSERVACION" id="7320F66F-00C5-989F-3F93-589FC2E7237D">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PREC_REGISTRADOPOR" id="B8123F75-1825-C497-1E7B-0F8ACB6E2A5C">
+<Column name="PACV_REGISTRADOPOR" id="A4F1E931-EE54-C900-C648-CEB245FF9EE8">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,9 +83,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PREC_FECHACAMBIO" id="3988ED1B-B4F1-B8AE-F355-61F8FB644A09">
+<Column name="PACV_FECHACAMBIO" id="08833FED-D5D4-7267-DD0F-FEF6B0102D4F">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-19 00:48:52 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,26 +96,35 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="264B12DE-B520-3D22-8FB6-1D8CEE25B328" name="PRECIO_PK">
+<ind_PK_UK id="6ADBF827-F0AD-F347-3734-2975DE06586F" name="PAGOCUENTAVENTA_PK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:27:07 UTC</createdTime>
+<createdTime>2025-05-19 00:49:00 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C5E9A136-2F75-7E50-E0DA-183D8D024B92"/>
+<colUsage columnID="A795FEEF-F68D-ACF6-C2FA-051231E22FF0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A9B97190-E0C7-AAA0-93CD-87F9AEA6890C" name="PRECIO_PRODUCTOS_FK">
+<ind_PK_UK id="9E886FCC-84A5-2B1A-934D-CDDEE0A23717" name="PAGOCUENTAVENTA_CUENTAVENTA_FK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:28:09 UTC</createdTime>
+<createdTime>2025-05-19 00:50:22 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DB93CCD2-22DC-828F-BBFF-A57C7BE6D331"/>
-<colUsage columnID="E58318D3-C510-FB77-0345-C03BB6DE6624"/>
+<colUsage columnID="97D430A0-AA7D-247B-A351-DFC0B7AFC280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D912FF3-08C8-AFBF-9287-8031ECCFC58B" name="PAGOCUENTAVENTA_MEDIOPAGO_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:53:56 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3F77284-8ACA-AD8D-E573-6A47C40AAFA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24AE7B0B-0E0B-8965-CB11-D55843CC6370" containerWithKeyObject="D454C0D3-383F-B1B8-BA6E-A53F9783956F" localFKIndex="5D912FF3-08C8-AFBF-9287-8031ECCFC58B" name="PAGOCUENTAVENTA_MEDIOPAGO_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:53:56 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>MEDIOPAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DCF966B9-6060-D980-9C0D-8DAE84CC67BB</referredTableID>
+<keyObject>DB40D6F7-71A6-A825-2B08-457BFD9FAE5B</keyObject>
+<referredKeyID>DB40D6F7-71A6-A825-2B08-457BFD9FAE5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MEPA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

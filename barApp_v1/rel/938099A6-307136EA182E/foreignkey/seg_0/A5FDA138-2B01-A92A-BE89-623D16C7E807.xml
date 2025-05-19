@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5FDA138-2B01-A92A-BE89-623D16C7E807" containerWithKeyObject="5F2A2A5C-45BC-46C2-A1B7-D7F23ADDCA16" localFKIndex="2C80666B-A6AE-FF7B-C06C-F4E788924ACA" name="MOVIMIENTOS_TIPOMOVIMIENTO_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:33:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>TIPOMOVIMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BABFFBD-86D3-BB8E-DD5A-FB604C955A5C</referredTableID>
+<keyObject>2A3FE52E-7C4E-06B9-160C-A479CE87645D</keyObject>
+<referredKeyID>2A3FE52E-7C4E-06B9-160C-A479CE87645D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIMO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

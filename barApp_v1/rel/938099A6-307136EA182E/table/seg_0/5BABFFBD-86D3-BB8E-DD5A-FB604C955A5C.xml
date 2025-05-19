@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BABFFBD-86D3-BB8E-DD5A-FB604C955A5C" name="TIPOMOVIMIENTO">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:23:21 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIMO_ID" id="B22EB5A0-F69B-09A1-9A7F-46F59632942E">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:25:29 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMO_NOMBRE" id="020B8C35-5875-1A21-C059-1B1C353BBB53">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:25:29 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMO_DESCRIPCION" id="52529A24-3C62-54BC-A7D1-11B90A0B0BF6">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:25:29 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMO_REGISTRADOPOR" id="2DBF29F8-17F5-0F48-4A09-3738804C83C7">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:25:29 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMO_FECHACAMBIO" id="606B5808-E2E1-1ADF-948A-BF96BB4B4EF6">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:25:29 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A3FE52E-7C4E-06B9-160C-A479CE87645D" name="TIPOMOVIMIENTO_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:25:48 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B22EB5A0-F69B-09A1-9A7F-46F59632942E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

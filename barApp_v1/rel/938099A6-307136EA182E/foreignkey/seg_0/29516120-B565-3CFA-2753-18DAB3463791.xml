@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29516120-B565-3CFA-2753-18DAB3463791" containerWithKeyObject="11060A4A-0554-F939-AA26-D54BFCF34868" localFKIndex="55C2EE3D-D800-A065-EF27-C0F65D9ABFB2" name="PRODUCTOS_SUCURSAL_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:13:16 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>SUCURSAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FE6ECEF-2C61-C484-751F-B33955F5C14F</referredTableID>
+<keyObject>64FDD8CE-33A0-67DE-F084-FE051943C02D</keyObject>
+<referredKeyID>64FDD8CE-33A0-67DE-F084-FE051943C02D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SUCU_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

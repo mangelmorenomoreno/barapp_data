@@ -179,7 +179,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8DC85F48-E7EA-CD4F-96F0-DA1001BD1166"/>
-<colUsage columnID="4A62D74D-8555-6B04-FB7F-13682128FF55"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8A64F435-5275-2959-1D7B-D812EE60F0E1" name="SUCURSAL_CIUDAD_FK">

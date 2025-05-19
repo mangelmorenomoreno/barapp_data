@@ -1,16 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11060A4A-0554-F939-AA26-D54BFCF34868" name="PRODUCTOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F2A2A5C-45BC-46C2-A1B7-D7F23ADDCA16" name="MOVIMIENTOS">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:29:44 UTC</createdTime>
+<createdTime>2025-05-18 18:26:54 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_28</ordsAlias>
+<abbreviation>MOVI</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PROD_ID" id="07767C1A-8DD3-1D0F-67AC-0683276E516A">
+<Column name="MOVI_ID" id="ECBE9950-6BB0-3359-C3E5-5F679C5DAF0B">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,9 +20,9 @@
 <ownDataTypeParameters>,30,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SUCU_ID" id="2854D451-C16F-8218-575D-05E9E2544F0F">
+<Column name="PROD_ID" id="02DB9F0A-110E-AADA-E90B-A0CA46C63DD6">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 18:11:21 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,12 +31,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="29516120-B565-3CFA-2753-18DAB3463791" referredColumn="8DC85F48-E7EA-CD4F-96F0-DA1001BD1166"/>
+<colAssociation fkAssociation="95ADBF37-57E7-4CB9-409B-D4708171BF96" referredColumn="07767C1A-8DD3-1D0F-67AC-0683276E516A"/>
 </associations>
 </Column>
-<Column name="TPPR_ID" id="DD4E2125-7D3C-7259-B875-37D01BF4762A">
+<Column name="SUCU_ID" id="6AE75612-8EDD-B931-804D-13CE89635D11">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 02:22:49 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,12 +45,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AB9C99C4-E472-74D4-587D-723D69A86375" referredColumn="4513B6B5-B17D-1D6C-5751-34271BA60F7A"/>
+<colAssociation fkAssociation="95ADBF37-57E7-4CB9-409B-D4708171BF96" referredColumn="2854D451-C16F-8218-575D-05E9E2544F0F"/>
 </associations>
 </Column>
-<Column name="MRCA_ID" id="B818B819-509A-0FCE-19B6-2058129A6773">
+<Column name="TIMO_ID" id="846248D8-1C2A-280F-A392-6A268B7414BF">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 02:24:04 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,34 +59,45 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4DCF5A75-0A86-1473-D814-5D0A504FA003" referredColumn="7DF0EFE1-2782-446E-B130-F9C15A5277A4"/>
+<colAssociation fkAssociation="A5FDA138-2B01-A92A-BE89-623D16C7E807" referredColumn="B22EB5A0-F69B-09A1-9A7F-46F59632942E"/>
 </associations>
 </Column>
-<Column name="PROD_NOMBRE" id="3B21E02F-0C8C-A71C-64E8-D0695D03C6BD">
+<Column name="MOVI_CANTIDAD" id="E280AF4E-A1F6-22F6-1904-22B7F1315F58">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOVI_MOTIVO" id="D254F338-BF62-680F-F646-E2620A8DBB84">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROD_DESCRIPCION" id="76C8626A-60E2-FF98-54F7-F13B2B8FC4AF">
+<Column name="MOVI_REFERENCIA" id="F4CCF328-04BB-7F1F-6230-F8A63C9C38E5">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>400</dataTypeSize>
-<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROD_CREADOPOR" id="BF880CD6-3D3F-BF87-4E8A-6E50B86B74E9">
+<Column name="MOVI_REGISTRADOPOR" id="4FA53F03-FAC9-AF91-8C6F-B8F0409D3095">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,9 +107,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROD_FECHACAMBIO" id="6B20F402-C5B5-D143-3B91-1A26BC1E4B0E">
+<Column name="MOVI_FECHACAMBIO" id="478BA644-A4A0-CB4A-362D-83F9631B8798">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
+<createdTime>2025-05-18 18:31:05 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -108,55 +120,36 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="411AF1DD-60D7-1428-5ADA-CCBFF838AE7B" name="PRODUCTOS_PK">
+<ind_PK_UK id="07D99BBF-8DA4-C427-C9C8-17B503D2B61B" name="MOVIMIENTOS_PK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
+<createdTime>2025-05-18 18:31:38 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="07767C1A-8DD3-1D0F-67AC-0683276E516A"/>
-<colUsage columnID="2854D451-C16F-8218-575D-05E9E2544F0F"/>
+<colUsage columnID="ECBE9950-6BB0-3359-C3E5-5F679C5DAF0B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6397E8AF-BCD9-8E15-7341-D9C3B7479790" name="PRODUCTOS__IDX">
+<ind_PK_UK id="B2956739-C539-A994-B008-790593E62DFA" name="MOVIMIENTOS_PRODUCTOS_FK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 01:48:51 UTC</createdTime>
-<ownerDesignName>barApp_v1</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="07767C1A-8DD3-1D0F-67AC-0683276E516A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="363A9CEE-C952-0CDF-FE75-4415D40E2C9B" name="PRODUCTOS_TIPO_PRODUCTOS_FK">
-<createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 02:23:12 UTC</createdTime>
+<createdTime>2025-05-18 18:32:55 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DD4E2125-7D3C-7259-B875-37D01BF4762A"/>
+<colUsage columnID="02DB9F0A-110E-AADA-E90B-A0CA46C63DD6"/>
+<colUsage columnID="6AE75612-8EDD-B931-804D-13CE89635D11"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1258419A-EDF9-18CA-6582-C58700E63FE7" name="PRODUCTOS_MARCA_FK">
+<ind_PK_UK id="2C80666B-A6AE-FF7B-C06C-F4E788924ACA" name="MOVIMIENTOS_TIPOMOVIMIENTO_FK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 02:24:04 UTC</createdTime>
+<createdTime>2025-05-18 18:33:34 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B818B819-509A-0FCE-19B6-2058129A6773"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="55C2EE3D-D800-A065-EF27-C0F65D9ABFB2" name="PRODUCTOS_SUCURSAL_FK">
-<createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 18:13:16 UTC</createdTime>
-<ownerDesignName>barApp_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2854D451-C16F-8218-575D-05E9E2544F0F"/>
+<colUsage columnID="846248D8-1C2A-280F-A392-6A268B7414BF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4B51EAE-70C7-4E34-EABF-F024CFE94470" name="PRECIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1202714-DDC4-96F7-4B5B-3017AA3768E7" name="MESA">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:23:16 UTC</createdTime>
+<createdTime>2025-05-18 19:47:42 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<ordsAlias>table_5</ordsAlias>
-<abbreviation>PREC</abbreviation>
+<ordsAlias>table_31</ordsAlias>
+<abbreviation>MESA</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PREC_ID" id="C5E9A136-2F75-7E50-E0DA-183D8D024B92">
+<Column name="MESA_ID" id="36D4F4EB-20D0-58CB-ACA2-42FA32F1C4B8">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-18 19:51:01 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,30,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROD_ID" id="DB93CCD2-22DC-828F-BBFF-A57C7BE6D331">
+<Column name="SUCU_ID" id="686BFA21-BE4C-27C6-A652-124C38CB5307">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:28:09 UTC</createdTime>
+<createdTime>2025-05-18 19:51:01 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,61 +31,46 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="599E9917-B690-7B87-5FED-DAEACC3E0B59" referredColumn="07767C1A-8DD3-1D0F-67AC-0683276E516A"/>
+<colAssociation fkAssociation="814D0599-2441-EFFD-F536-EEC62E8077DE" referredColumn="8DC85F48-E7EA-CD4F-96F0-DA1001BD1166"/>
 </associations>
 </Column>
-<Column name="SUCU_ID" id="E58318D3-C510-FB77-0345-C03BB6DE6624">
+<Column name="MESA_NUMERO" id="FC9261A0-207B-69BC-45F2-2805C4C32FAF">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 18:14:36 UTC</createdTime>
+<createdTime>2025-05-18 19:51:01 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>30</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="599E9917-B690-7B87-5FED-DAEACC3E0B59" referredColumn="2854D451-C16F-8218-575D-05E9E2544F0F"/>
-</associations>
 </Column>
-<Column name="PREC_VALORVENTA" id="167CE767-CC20-1B5F-A083-3AE2390BDBB7">
+<Column name="MESA_ESTADO" id="440225B3-5C2F-17ED-8D11-4B17D20E4605">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-18 19:51:01 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PREC_VALORCOMPRA" id="8DF82FD4-458C-C4C6-5672-DFCEFBFF7E70">
+<Column name="MESA_REGISTRADOPOR" id="171FDD0E-39DE-FCD8-7D08-9358D4E89276">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
-<ownerDesignName>barApp_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PREC_REGISTRADOPOR" id="B8123F75-1825-C497-1E7B-0F8ACB6E2A5C">
-<createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-18 19:51:01 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>3O</dataTypeSize>
+<ownDataTypeParameters>3O,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PREC_FECHACAMBIO" id="3988ED1B-B4F1-B8AE-F355-61F8FB644A09">
+<Column name="MESA_FECHACAMBIO" id="436DCA81-C625-510A-70A4-4E78A549C302">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:26:44 UTC</createdTime>
+<createdTime>2025-05-18 19:51:01 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,26 +81,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="264B12DE-B520-3D22-8FB6-1D8CEE25B328" name="PRECIO_PK">
+<ind_PK_UK id="9993AB68-D462-F0AE-7DB0-65E131DF7BE9" name="MESA_PK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:27:07 UTC</createdTime>
+<createdTime>2025-05-18 19:54:59 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C5E9A136-2F75-7E50-E0DA-183D8D024B92"/>
+<colUsage columnID="36D4F4EB-20D0-58CB-ACA2-42FA32F1C4B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A9B97190-E0C7-AAA0-93CD-87F9AEA6890C" name="PRECIO_PRODUCTOS_FK">
+<ind_PK_UK id="088FAC56-39CA-1938-E927-0563E787EEE5" name="MESA_SUCURSAL_FK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-18 03:28:09 UTC</createdTime>
+<createdTime>2025-05-18 19:54:59 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DB93CCD2-22DC-828F-BBFF-A57C7BE6D331"/>
-<colUsage columnID="E58318D3-C510-FB77-0345-C03BB6DE6624"/>
+<colUsage columnID="686BFA21-BE4C-27C6-A652-124C38CB5307"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

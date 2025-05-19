@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCF966B9-6060-D980-9C0D-8DAE84CC67BB" name="MEDIOPAGO">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:50:31 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<abbreviation>MEPA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEPA_ID" id="099041A8-99A3-7AD7-C129-117EA1B299A9">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:52:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEPA_NOMBRE" id="1E9C66ED-B239-33C3-0B99-8586CF1FC409">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:52:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEPA_DESCRIPCION" id="30B3C408-66C5-6C42-785D-52FBE0F1A53C">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:52:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEPA_ESTADO" id="E8C32F6F-7CDE-9E3E-EDAB-5244CFFFC76F">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:52:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEPA_REGISTRADOPOR" id="896F21AC-51B5-D443-3E65-CFEC6B4F91B4">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:52:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEPA_FECHACAMBIO" id="C7E64091-B3E9-6BE6-B561-DCBB8FDEA2DD">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:52:40 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB40D6F7-71A6-A825-2B08-457BFD9FAE5B" name="MEDIOPAGO_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-19 00:53:34 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="099041A8-99A3-7AD7-C129-117EA1B299A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

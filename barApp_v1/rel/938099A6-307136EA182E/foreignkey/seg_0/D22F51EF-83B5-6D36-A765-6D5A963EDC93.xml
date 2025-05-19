@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D22F51EF-83B5-6D36-A765-6D5A963EDC93" containerWithKeyObject="D75AA143-CC4E-08DE-686A-7F3187CC29C4" localFKIndex="B5DF57E3-B649-AA53-C6E6-08BF2B166B8B" name="INVENTARIO_PRODUCTOS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-18 18:21:16 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11060A4A-0554-F939-AA26-D54BFCF34868</referredTableID>
+<keyObject>411AF1DD-60D7-1428-5ADA-CCBFF838AE7B</keyObject>
+<referredKeyID>411AF1DD-60D7-1428-5ADA-CCBFF838AE7B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROD_ID,SUCU_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
