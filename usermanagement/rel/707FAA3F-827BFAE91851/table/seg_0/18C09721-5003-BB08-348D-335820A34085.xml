@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18C09721-5003-BB08-348D-335820A34085" name="ROLES">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 03:14:52 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>ROLE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

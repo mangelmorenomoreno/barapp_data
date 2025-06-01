@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAC9D9C1-2EC6-39D2-25FF-2F1383CF212A" name="MENU">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 03:15:27 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<abbreviation>MENU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

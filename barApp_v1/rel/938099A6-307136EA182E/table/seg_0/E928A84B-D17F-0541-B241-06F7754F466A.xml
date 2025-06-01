@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E928A84B-D17F-0541-B241-06F7754F466A" name="TIPOAUTENTICACION">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:06:08 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<abbreviation>TIAU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIAU_ID" id="54D5E7B0-5426-C286-2266-C1481B0D2545">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIAU_NOMBRE" id="261B7567-28FD-AC9A-94DE-16225A857125">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIAUD_TOKEN" id="24CA7C3F-3134-D269-6CF4-A7EE6809007A">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIAU_DESCRIPCION" id="023C1AB4-CFE8-B6F6-4287-E321558E4ACC">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIAU_REGISTRADOPOR" id="658B1F5F-CF5E-4510-FD07-4C2BB49E89BA">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIAU_FECHACAMBIO" id="8EC1CF8D-C692-6CCB-2EB8-5D05EC87618B">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDA4434D-613B-3FB9-FBD4-4C49250D18C3" name="TIPOAUTENTICACION_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:09:07 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D5E7B0-5426-C286-2266-C1481B0D2545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8376F9B-23FC-07F0-6741-F7CB4F3B3425" name="LOGIN_LOG">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 03:12:09 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

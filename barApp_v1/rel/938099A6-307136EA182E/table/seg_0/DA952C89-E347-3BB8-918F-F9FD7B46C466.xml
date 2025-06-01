@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA952C89-E347-3BB8-918F-F9FD7B46C466" name="USUARIOS">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>USUA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUA_ID" id="5BB43FB7-69F0-D6A5-F421-DD8B2DD9F9A4">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_ID" id="621D6ACD-E7DD-A741-F2A5-B4575F4BDC61">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD52642-BC6B-310F-37A1-807D3F51CBE7" referredColumn="313B3790-534F-A97F-EF6E-351619A15AF5"/>
+</associations>
+</Column>
+<Column name="EMPR_ID" id="DBABA770-35DF-F90D-ED52-02B2A1FCBF33">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25A6AC60-4B1F-C2FA-8B9B-A842A6DF6D26" referredColumn="EFF3C610-12DC-16CC-26ED-B275BEC5ED57"/>
+</associations>
+</Column>
+<Column name="USUA_ESTADO" id="45927284-7810-0A6A-0AA6-E5308010D838">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:04:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_BLOQUEADO" id="E9640617-7343-BF56-F201-F0DBFC8AD930">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:04:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_PRIMERNOMBRE" id="D9915726-7CD8-BEBB-8E1A-14B5C9F01BA5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_SEGUNDONOMBRE" id="793D265E-F82C-71F5-82D8-ABB17631EDC1">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_SEGUNDOAPELLIDO" id="34772981-E0E0-AB4C-9008-1E9D7BA9FE37">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_PRIMERAPELLIDO" id="28F41C83-2C12-3593-EF35-FA08F8FF8567">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_EMAIL" id="A601583D-B12E-2C54-95F7-DE43395B60CC">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_FECHANACIMIENTO" id="7E57E0C9-3812-B37F-AD29-B200BAD27ADB">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_DIRECCION" id="21E5C0C5-BB1D-7D56-39F8-32508FBF9627">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_TELEFONOPRICIPAL" id="FD1CA0B6-4D81-A57E-B702-6F6FCF0EDB14">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_TELEFONOSECUNDARIO" id="2653AE1B-CFAD-1CD5-F401-03068279045F">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_REGISTRADOPOR" id="BF14F4A8-3813-B159-8436-CD664E9D1DFC">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_FECHACAMBIO" id="F646342D-67F9-1312-5F01-A95D2A868A8C">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD3BF094-D27E-FEBD-8B5E-F1C2FFF37734" name="USUARIOS_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:04:44 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BB43FB7-69F0-D6A5-F421-DD8B2DD9F9A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="906CE8C0-8F89-1F19-FFC3-B3F70816BD23" name="USUARIOS_CIUDAD_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:05:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="621D6ACD-E7DD-A741-F2A5-B4575F4BDC61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66A99CCD-3E4E-241F-A302-2C1599961557" name="USUARIOS_EMPRESA_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 16:05:43 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBABA770-35DF-F90D-ED52-02B2A1FCBF33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

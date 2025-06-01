@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE60EDC4-1E10-6D35-2303-AD632714A51F" name="OPCIONMENU">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:14:05 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<abbreviation>OPME</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OPME_ID" id="7F74693E-899A-198A-F986-73AB859FA0B5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:15:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_ID" id="C62A86BD-8B62-0C05-2B53-07F5EFC38B4D">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:16:52 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BDCE1DD-3C24-070E-4113-76217D2DEB5D" referredColumn="07E47E94-CDF7-A3A5-D680-D719176BC689"/>
+</associations>
+</Column>
+<Column name="OPME_NOMBRE" id="F55CD79C-A4F8-97D1-149C-3F0BCFDB9E16">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:15:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPME_DESCRIPCION" id="24D55817-8180-926F-741E-7C765D398182">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:15:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPME_CODIGOTRADUCCION" id="09683AAD-377B-2355-F2E2-1D3A7557AAB9">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:15:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPME_REGISTRADOPOR" id="13AC795B-AC79-7449-B6AA-A20E84A89B3E">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:15:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPME_FECHACAMBIO" id="8FCC0383-9F16-D361-4048-019492DF452F">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:15:19 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="257FACD4-3296-AFAA-A57C-D7169DC83F16" name="OPCIONMENU_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:17:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F74693E-899A-198A-F986-73AB859FA0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2989CF9C-591B-10C4-9EF5-CBBBCAE0D065" name="OPCIONMENU_MENUS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-25 00:17:18 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62A86BD-8B62-0C05-2B53-07F5EFC38B4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
