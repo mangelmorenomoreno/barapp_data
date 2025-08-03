@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E60824D-D52D-C7B8-273E-667C50FE671B" containerWithKeyObject="31148053-439A-3EBF-AC4B-4010DB6147B8" localFKIndex="02ACD795-2DFF-9423-42FC-DD7941B2F2B0" name="USUARIOROL_ROLES_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-06-01 18:35:23 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>ROLES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C230FE9C-6A08-8476-A22D-98021EFB79F7</referredTableID>
+<keyObject>9785BAF8-D900-EB14-B978-6B7F6E6B8856</keyObject>
+<referredKeyID>9785BAF8-D900-EB14-B978-6B7F6E6B8856</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ROLE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

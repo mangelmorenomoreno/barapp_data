@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CA21F73-4599-AAC7-BB2C-59F1AD8DE0A1" name="USUARIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CA21F73-4599-AAC7-BB2C-59F1AD8DE0A1" name="PERSONAGENERAL">
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-24 03:04:20 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
-<abbreviation>USUA</abbreviation>
+<abbreviation>PEGE</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,6 +12,29 @@
 <Column name="PEGE_ID" id="C641FF1A-53CE-359D-2948-939964867BD4">
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUD_ID" id="60A5BF86-5AE2-39B2-04A9-4B98C4E5D5E1">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 03:07:27 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPR_ID" id="5BC272EB-97D3-1445-1DA6-BC5AD16D18D5">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 03:08:03 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,7 +52,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_SEGUNDONOMBRE" id="72E91E6F-0903-1C89-7852-CF3D7960090C">
@@ -37,8 +61,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_SEGUNDOAPELLIDO" id="27A46867-3588-93FF-B20F-26952313F583">
@@ -46,8 +73,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_PRIMERAPELLIDO" id="2D6A7FA0-9167-FEB9-6BCB-D16A4DFB841D">
@@ -55,8 +85,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_EMAIL" id="8094CDF9-0813-D41B-549F-81E4C44A668E">
@@ -64,8 +97,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_FECHANACIMIENTO" id="B7FFBD0F-7069-FCD5-B1F1-E4C3DFFD0785">
@@ -73,7 +109,9 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -82,8 +120,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_TELEFONOSECUNDARIO" id="EBEB5F03-7AAE-4F80-ED76-4810173D7911">
@@ -91,8 +132,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_REGISTRADOPOR" id="1951F1F4-D1DC-CCE7-984E-90AF46D8B118">
@@ -100,8 +144,11 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PEGE_FECHACAMBIO" id="473C083F-D570-02CC-2CFB-638841D1FE6C">
@@ -109,16 +156,9 @@
 <createdTime>2025-05-24 03:06:36 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CIUD_ID" id="60A5BF86-5AE2-39B2-04A9-4B98C4E5D5E1">
-<createdBy>KTFUS</createdBy>
-<createdTime>2025-05-24 03:07:27 UTC</createdTime>
-<ownerDesignName>usermanagement</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -127,18 +167,25 @@
 <createdTime>2025-05-24 03:07:42 UTC</createdTime>
 <ownerDesignName>usermanagement</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="EMPR_ID" id="5BC272EB-97D3-1445-1DA6-BC5AD16D18D5">
-<createdBy>KTFUS</createdBy>
-<createdTime>2025-05-24 03:08:03 UTC</createdTime>
-<ownerDesignName>usermanagement</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="529C3481-772F-2137-24EE-895238E5F1DF" name="USUARIO_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-05-24 15:54:13 UTC</createdTime>
+<ownerDesignName>usermanagement</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C641FF1A-53CE-359D-2948-939964867BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

@@ -23,7 +23,6 @@
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-25 00:13:34 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,7 +34,6 @@
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-25 00:13:34 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,7 +45,6 @@
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-25 00:13:34 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

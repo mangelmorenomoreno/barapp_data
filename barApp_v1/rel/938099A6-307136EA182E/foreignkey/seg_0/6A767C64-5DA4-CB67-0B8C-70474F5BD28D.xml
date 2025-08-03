@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A767C64-5DA4-CB67-0B8C-70474F5BD28D" containerWithKeyObject="019123CA-75DD-9E0A-6E8A-9D4B4C4684A6" localFKIndex="E2941B18-B3AB-9C7F-A4F6-BB53C560E94B" name="LOGIN_LOG_USUARIOS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-06-01 18:12:01 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DA952C89-E347-3BB8-918F-F9FD7B46C466</referredTableID>
+<keyObject>CD3BF094-D27E-FEBD-8B5E-F1C2FFF37734</keyObject>
+<referredKeyID>CD3BF094-D27E-FEBD-8B5E-F1C2FFF37734</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USUA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="019123CA-75DD-9E0A-6E8A-9D4B4C4684A6" name="LOGIN_LOG">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31148053-439A-3EBF-AC4B-4010DB6147B8" name="USUARIOROL">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-05-24 15:55:37 UTC</createdTime>
+<createdTime>2025-06-01 18:17:30 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
-<abbreviation>LOGI</abbreviation>
+<ordsAlias>table_37</ordsAlias>
+<abbreviation>USRO</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="LOGI_ID" id="C4A59C85-3A46-0FAC-F2FE-CBA94306AB9E">
+<Column name="USRO_ID" id="BCDFA164-5A65-5758-6E86-573FE204F940">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:10:54 UTC</createdTime>
+<createdTime>2025-06-01 18:19:24 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,30,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USUA_ID" id="E8E6AA3C-2DE4-AB89-ACDE-A3599C61D8C6">
+<Column name="USUA_ID" id="19AB5B0F-684D-7346-6485-E63246DDDFA0">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:10:54 UTC</createdTime>
+<createdTime>2025-06-01 18:19:24 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,33 +31,26 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6A767C64-5DA4-CB67-0B8C-70474F5BD28D" referredColumn="5BB43FB7-69F0-D6A5-F421-DD8B2DD9F9A4"/>
+<colAssociation fkAssociation="39798A8B-D1BB-CC25-82D3-CF0D4658B129" referredColumn="5BB43FB7-69F0-D6A5-F421-DD8B2DD9F9A4"/>
 </associations>
 </Column>
-<Column name="LOGI_TIPO" id="BD06C8DD-99F6-BD92-F52C-E0A3103BF31B">
+<Column name="ROLE_ID" id="2B69315B-8706-D256-0E4E-4D030386EBB2">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:10:54 UTC</createdTime>
+<createdTime>2025-06-01 18:35:12 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="LOGI_FECHA" id="ED75DD29-3EF8-5D87-18B1-1AB91F9D1844">
-<createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:10:54 UTC</createdTime>
-<ownerDesignName>barApp_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E60824D-D52D-C7B8-273E-667C50FE671B" referredColumn="AB27E9E0-F2A9-C175-C1C1-E24A7F2D5404"/>
+</associations>
 </Column>
-<Column name="LOGI_REGISTRADOPOR" id="BC3C385A-B893-41B6-95AC-A2B92357BB35">
+<Column name="USRO_REGISTRADOPOR" id="55D8DF47-41D8-B940-8A16-B8C7BDA555A7">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:10:54 UTC</createdTime>
+<createdTime>2025-06-01 18:19:24 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,9 +60,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LOGI_FECHACAMBIO" id="FB4DC493-3DCC-DD09-6FE8-05C8A341B4B0">
+<Column name="USRO_FECHACAMBIO" id="EE2B575D-200A-9E2C-2A9B-AE47172123BF">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:10:54 UTC</createdTime>
+<createdTime>2025-06-01 18:19:24 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,25 +73,35 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F8BFF946-30F3-27B3-746B-01C3F394E6AC" name="LOGIN_LOG_PK">
+<ind_PK_UK id="B7C596F2-F1AE-9BFC-D1F2-3B2C2551FE3B" name="MENUUSUARIO_PK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:12:01 UTC</createdTime>
+<createdTime>2025-06-01 18:19:50 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C4A59C85-3A46-0FAC-F2FE-CBA94306AB9E"/>
+<colUsage columnID="BCDFA164-5A65-5758-6E86-573FE204F940"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E2941B18-B3AB-9C7F-A4F6-BB53C560E94B" name="LOGIN_LOG_USUARIOS_FK">
+<ind_PK_UK id="5D486D1D-3919-185D-005E-091BAFA7E825" name="MENUUSUARIO_ROLES_FK">
 <createdBy>KTFUS</createdBy>
-<createdTime>2025-06-01 18:12:01 UTC</createdTime>
+<createdTime>2025-06-01 18:19:50 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E8E6AA3C-2DE4-AB89-ACDE-A3599C61D8C6"/>
+<colUsage columnID="19AB5B0F-684D-7346-6485-E63246DDDFA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02ACD795-2DFF-9423-42FC-DD7941B2F2B0" name="USUARIOROL_ROLES_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-06-01 18:35:23 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B69315B-8706-D256-0E4E-4D030386EBB2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
