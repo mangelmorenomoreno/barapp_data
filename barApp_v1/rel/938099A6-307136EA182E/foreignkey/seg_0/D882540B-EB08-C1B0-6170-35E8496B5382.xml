@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D882540B-EB08-C1B0-6170-35E8496B5382" containerWithKeyObject="E2E66961-F43C-DD48-B370-462181A542D6" localFKIndex="BA9EC2AF-A36A-D7FB-7008-F9AD5C988D70" name="LOG_CREDENCIAL_TIPOAUTENTICACION_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:03:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>TIPOAUTENTICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E928A84B-D17F-0541-B241-06F7754F466A</referredTableID>
+<keyObject>BDA4434D-613B-3FB9-FBD4-4C49250D18C3</keyObject>
+<referredKeyID>BDA4434D-613B-3FB9-FBD4-4C49250D18C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIAU_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

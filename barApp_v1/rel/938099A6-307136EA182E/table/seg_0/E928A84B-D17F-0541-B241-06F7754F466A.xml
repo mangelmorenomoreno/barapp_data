@@ -24,7 +24,6 @@
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-24 16:09:02 UTC</createdTime>
 <ownerDesignName>barApp_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

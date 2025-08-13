@@ -20,6 +20,20 @@
 <ownDataTypeParameters>,30,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TIUS_ID" id="08BF4590-1EE6-73DE-90D7-BF121922AD0D">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:09:17 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90D178AF-3FCE-B4EF-7BF7-91F0F0A3A00A" referredColumn="C0ADEC71-661B-EE80-F618-5724668A8D99"/>
+</associations>
+</Column>
 <Column name="ROLE_NOMBRE" id="C1E83F74-4F52-FEBD-021A-F5EE7CB933F4">
 <createdBy>KTFUS</createdBy>
 <createdTime>2025-05-25 00:09:46 UTC</createdTime>
@@ -76,6 +90,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AB27E9E0-F2A9-C175-C1C1-E24A7F2D5404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="891C3A72-5B3A-ED05-B87A-02361B68A79C" name="ROLES_TIPOUSUARIO_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:09:17 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08BF4590-1EE6-73DE-90D7-BF121922AD0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

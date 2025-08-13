@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90D178AF-3FCE-B4EF-7BF7-91F0F0A3A00A" containerWithKeyObject="C230FE9C-6A08-8476-A22D-98021EFB79F7" localFKIndex="891C3A72-5B3A-ED05-B87A-02361B68A79C" name="ROLES_TIPOUSUARIO_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:09:17 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<referredTableLongName>TIPOUSUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF207364-8854-5FDD-5CEA-CED719ED5383</referredTableID>
+<keyObject>D37E76E1-8B37-15AF-01CE-9ABA2D0E2DD8</keyObject>
+<referredKeyID>D37E76E1-8B37-15AF-01CE-9ABA2D0E2DD8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIUS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

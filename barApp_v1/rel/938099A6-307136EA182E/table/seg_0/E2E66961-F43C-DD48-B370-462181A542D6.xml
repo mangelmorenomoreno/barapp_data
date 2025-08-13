@@ -7,4 +7,122 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LGCR_ID" id="E2ABBB4E-ADD4-0771-D6DE-84BE6A9200FA">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_ID" id="A2B8832F-78DC-C83F-65A1-F04ECD00292A">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F57A926-6E1E-7D78-F1A9-E8BAA33FF547" referredColumn="5BB43FB7-69F0-D6A5-F421-DD8B2DD9F9A4"/>
+</associations>
+</Column>
+<Column name="TIAU_ID" id="348A18C4-8781-2F46-D8BA-50B497D36A22">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D882540B-EB08-C1B0-6170-35E8496B5382" referredColumn="54D5E7B0-5426-C286-2266-C1481B0D2545"/>
+</associations>
+</Column>
+<Column name="AUTE_HASH" id="67DCB37C-FC13-251C-0FA5-420CD791BD2C">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTE_IDENTIFICADOR" id="9D134B72-3835-AA1D-7366-4572AB3C1A4F">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LGCR_REGISTRADOPOR" id="707CB129-85A4-BEBA-4E8E-7C3CE3817B83">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LGCR_FECHACAMBIO" id="C85DD1E7-97A1-36A3-7662-4F04D39B30DB">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DFD2B44-7655-BC56-201F-2D1B5130DF7D" name="LOG_CREDENCIAL_PK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2ABBB4E-ADD4-0771-D6DE-84BE6A9200FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D49EA493-DF0D-7A5A-F5FB-CC950F50C3B6" name="LOG_CREDENCIAL_USUARIOS_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:02:14 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2B8832F-78DC-C83F-65A1-F04ECD00292A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA9EC2AF-A36A-D7FB-7008-F9AD5C988D70" name="LOG_CREDENCIAL_TIPOAUTENTICACION_FK">
+<createdBy>KTFUS</createdBy>
+<createdTime>2025-08-13 20:03:02 UTC</createdTime>
+<ownerDesignName>barApp_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="348A18C4-8781-2F46-D8BA-50B497D36A22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
